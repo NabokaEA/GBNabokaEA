@@ -18,8 +18,8 @@ public class Main {
 
         Plate plate = new Plate(20);
 
-        for (Cat Cat:cats) {
-        Cat.eat(plate);
+        for (Cat cat:cats) {
+        cat.eat(plate);
         }
 
         appendFoodTo(plate, 50);

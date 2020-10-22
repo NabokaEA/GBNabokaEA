@@ -11,6 +11,7 @@ public class Plate {
     public void increaseFood(int food)
     {
         this.food += food;
+        System.out.println("....добавили пищи");
     }
 
     public void decreaseFood(int appetite)
